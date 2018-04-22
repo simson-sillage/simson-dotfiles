@@ -14,6 +14,7 @@ alias py='python'
 alias rb='ruby'
 alias zy='sudo zypper'
 alias mkcd=mkcd
+alias emacs='emacs -nw'
 
 # code completion:
 complete -F _zypper zy

@@ -1,7 +1,7 @@
 filetype plugin indent on
 
 " pathogen plugin management:
-execute pathogen#infect()
+"execute pathogen#infect()
 
 " autocompletion suggestions you can cycle through with <tab>
 set wildmenu
@@ -70,7 +70,7 @@ set noshowmode
 " syntax highlighting:
 syntax enable
 " colors:
-colorscheme tender
+colorscheme elflord
 " transparent background
 hi Normal guibg=NONE ctermbg=NONE
 " gray comments:
