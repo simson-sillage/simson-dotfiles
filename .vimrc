@@ -1,8 +1,5 @@
 filetype plugin indent on
 
-" pathogen plugin management:
-"execute pathogen#infect()
-
 " autocompletion suggestions you can cycle through with <tab>
 set wildmenu
 
