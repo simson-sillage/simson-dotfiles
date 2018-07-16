@@ -1,0 +1,11 @@
+startup_message off
+defscrollback 8000
+#vbell off
+#deflogin on
+#autodetach on
+
+hardstatus on
+hardstatus alwayslastline
+
+caption always "%{WB}%0=%H%{kB} %?%-w%?%{bW}%n:%t%?(%u)%?%{kB}%?%+w%? %{WB}%=%c"
+
