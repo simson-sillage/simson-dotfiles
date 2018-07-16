@@ -1,3 +1,14 @@
+;;; no welcome screen:
+(setq inhibit-startup-screen t)
+;;; Add personal Emacs library:
+(add-to-list 'load-path "~/.emacs.d/lib/")
+;;; Ruby Block Mode:
+(require 'ruby-block)
+(ruby-block-mode t)
+(setq ruby-block-highlight-toggle t)
+;;; JavaScript:
+;;; Indentation to 2 spaces:
+(setq js-indent-level 2)
 ;;; Custom shortcuts:
 ;;; bother: spaceline doesn't show E for emacs state if evil mode is turned off
 (global-set-key (kbd "<f1>") 'evil-mode) ; toggle evil mode
