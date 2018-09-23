@@ -1,3 +1,5 @@
+;;; column at which emacs will wrap when filling:
+(setq-default fill-column 80)
 ;;; no welcome screen:
 (setq inhibit-startup-screen t)
 ;;; Add personal Emacs library:
@@ -22,7 +24,7 @@
  whitespace-style       '(face lines-tail))
 (add-hook 'prog-mode-hook #'whitespace-mode)
 ;;; Set Color Scheme:
-(load-theme 'tango-dark t)
+(load-theme 'adwaita t)
 ;;; Disable menu, tool and scroll bar:
 (menu-bar-mode -1)
 (tool-bar-mode -1)
@@ -66,7 +68,7 @@
 ;;; changes color of line numbers:
 (set-face-foreground 'linum "gray")
 ;;; spaces instead of tabs:
-(setq-default indent-tabs-mode nil)
+;(setq-default indent-tabs-mode nil)
 ;;; tabs are 4 spaces:
 (setq-default tab-width 4)
 ;;; start scrolling before reaching end of buffer
