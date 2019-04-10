@@ -1,6 +1,9 @@
 # prefered editor:
 export EDITOR=/usr/bin/vim
 
+# append to history, instead of overwriting:
+shopt -s histappend
+
 # custom prompt:
 export PS1='${USER}@${HOST}: $(dirs +0) $(__git_ps1 " (%s)")\n> '
 
