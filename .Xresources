@@ -1,0 +1,21 @@
+! setting $TERm variable:
+XTerm.termName: xterm-256color
+
+! font configuration
+xterm*faceName: Noto Mono
+xterm*faceSize: 10
+xterm*renderFont: true
+Xft.antialias: 1
+Xft.autohint: 1
+Xft.hintstyle: hintfull
+
+! initial window size
+xterm*vt100*geometry: 80x20
+
+! disable scroll bar
+xterm*scrollBar: false
+
+! terminal style copy and paste
+xterm*VT100.Translations: #override \
+                 Ctrl Shift <Key>V:    insert-selection(CLIPBOARD) \n\
+                 Ctrl Shift <Key>C:    copy-selection(CLIPBOARD)
